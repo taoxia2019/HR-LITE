@@ -26,11 +26,14 @@ public class SalaryController extends BaseController {
         return "salary/salarylist";
     }
 
+
     @ResponseBody
     @RequestMapping("/taxlist")
     @RequiresPermissions("salary:base")
     public PageResultSet<SalarytaxDto> list(SalarytaxQuery salarytaxQuery) {
         return salarytaxService.findByPage(salarytaxQuery);
     }
+
+
 
 }
