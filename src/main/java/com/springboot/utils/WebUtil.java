@@ -41,7 +41,7 @@ public class WebUtil {
     /**
      * 获取实例
      *
-     * @author 赵卉华
+     * @author
      * @return WebUtil实例
      */
     public static WebUtil getInstance() {
@@ -92,7 +92,7 @@ public class WebUtil {
     /**
      * 设置SESSION属性
      *
-     * @author 赵卉华
+     * @author
      * @param name 属性名称
      * @param value 属性值
      */
@@ -170,7 +170,7 @@ public class WebUtil {
     /**
      * 获取IP地址
      *
-     * @author 龚健
+     * @author
      * @return
      */
     public String getIpAddress() {
